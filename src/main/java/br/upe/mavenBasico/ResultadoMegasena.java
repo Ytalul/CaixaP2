@@ -29,7 +29,7 @@ public class ResultadoMegasena {
             HttpGet httpget = new HttpGet(URL);
             // Manipulador da resposta da conexão com a URL
             ResponseHandler<String> responseHandler = new BasicResponseHandler();
-            // Resposta propriamente dita
+            // Resposta propriamente dita dsadasdasdsads
             String html = httpclient.execute(httpget, responseHandler);
             // Retorno das dezenas, após tratamento
             return obterDezenas(html);
